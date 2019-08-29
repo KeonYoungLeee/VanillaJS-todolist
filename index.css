@@ -1,21 +1,17 @@
 body {
-    background-color: #ecf0f1;
+    color: #34495e;
 }
 
 .btn {
     cursor: pointer;
 }
 
-h1 {
-    color: #34495e;
-}
-
 .clicked {
     color: #7f8c8d;
 }
 
-.form 
-.grettings {
+.form, 
+.greetings {
     display: none;
 }
 

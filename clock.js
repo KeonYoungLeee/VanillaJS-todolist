@@ -9,11 +9,11 @@ const getTime = () => {
     clockTitle.innerText = `${hour<10 ? `0${hour}` : hour}:${minutes<10 ? `0${minutes}` : minutes}:${second<10 ? `0${second}` : second}`;
 }
 
-const init = () => {
+const Clockinit = () => {
     getTime();
     setInterval(getTime,1000);
     
 }
 
-init();
+Clockinit();
 
